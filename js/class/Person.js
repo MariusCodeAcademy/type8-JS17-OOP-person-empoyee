@@ -15,7 +15,7 @@ class Person {
     const greetString = `Hello my name is ${this.name} and I am ${this.age} years old`;
     console.log(greetString);
   }
-  // payMoney() {}
+  calcPay() {}
 }
 // Person.call({}, 'James', 'Jameson', 458, 25, 'male')
 const p1 = new Person('James', 'Jameson', 25);

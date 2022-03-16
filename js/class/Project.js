@@ -10,6 +10,13 @@ class Project {
     this.#done = false;
     this.#id = `proj_${++Project.proCount}`;
   }
+  finishProject() {
+    this.#done = true;
+  }
+  // geter
+  get done() {
+    return this.#done;
+  }
 }
 
 // id, done (lygu false), title, price
