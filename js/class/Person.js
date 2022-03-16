@@ -20,10 +20,10 @@ class Person {
 // Person.call({}, 'James', 'Jameson', 458, 25, 'male')
 const p1 = new Person('James', 'Jameson', 25);
 const p2 = new Person('Jill', 'Smith', 22);
-console.log('p1 ===', p1);
+// console.log('p1 ===', p1);
 p1.greet();
 p2.greet();
 
 // console.log('p1.idCode ===', p1.idCode);
 
-console.log('Person.personCount ===', Person.personCount);
+// console.log('Person.personCount ===', Person.personCount);

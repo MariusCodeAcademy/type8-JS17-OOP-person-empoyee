@@ -35,29 +35,29 @@ class Emploee extends Person {
   // kokia suma sumoketi ir nunulina isdirbtas valandas
 }
 
-const e1 = new Emploee('Mike', 'Mikson', 33, 15);
-const e2 = new Emploee('Bob', 'Bobson', 35, 17);
-e1.hasCar = true;
-e1.greet();
+// const e1 = new Emploee('Mike', 'Mikson', 33, 15);
+// const e2 = new Emploee('Bob', 'Bobson', 35, 17);
+// e1.hasCar = true;
+// e1.greet();
 
-// console.log('e1 b4 work ===', e1);
-e1.work(160);
-e2.work(100);
-e2.work(20);
+// // console.log('e1 b4 work ===', e1);
+// e1.work(160);
+// e2.work(100);
+// e2.work(20);
 
-console.log('e1 after work work ===', e1);
-console.log('2 after work work ===', e2.hoursWorked);
+// console.log('e1 after work work ===', e1);
+// console.log('2 after work work ===', e2.hoursWorked);
 
-// const e1Sallary = e1.calcPay();
-// const e2Sallary = e2.calcPay();
-const algos = [e1, e2].map((em) => {
-  return {
-    name: em.name,
-    atlygiminas: em.calcPay(),
-  };
-});
-console.log('algos ===', algos);
-console.log('e1 after pay ===', e1);
-// e1.payPerHour = 20;
-e1.payPerHour = [20, 'blue'];
-console.log('e1 ===', e1);
+// // const e1Sallary = e1.calcPay();
+// // const e2Sallary = e2.calcPay();
+// const algos = [e1, e2].map((em) => {
+//   return {
+//     name: em.name,
+//     atlygiminas: em.calcPay(),
+//   };
+// });
+// console.log('algos ===', algos);
+// console.log('e1 after pay ===', e1);
+// // e1.payPerHour = 20;
+// e1.payPerHour = [20, 'blue'];
+// console.log('e1 ===', e1);
