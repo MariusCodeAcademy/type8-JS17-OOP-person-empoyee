@@ -7,7 +7,6 @@ class Partner extends Person {
   addProject(project) {
     // patikrinti kad butu sukurtas pagal Project Klase
     if (!(project instanceof Project)) return console.log('bad object');
-
     this.#projects.push(project);
   }
 
