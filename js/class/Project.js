@@ -14,5 +14,4 @@ class Project {
 
 // id, done (lygu false), title, price
 
-const pro1 = new Project('Headeris', 100);
-console.log('pro1 ===', pro1);
+// console.log('pro1 ===', pro1);

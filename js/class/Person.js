@@ -21,8 +21,8 @@ class Person {
 const p1 = new Person('James', 'Jameson', 25);
 const p2 = new Person('Jill', 'Smith', 22);
 // console.log('p1 ===', p1);
-p1.greet();
-p2.greet();
+// p1.greet();
+// p2.greet();
 
 // console.log('p1.idCode ===', p1.idCode);
 
