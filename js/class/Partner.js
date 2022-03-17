@@ -4,6 +4,12 @@ class Partner extends Person {
   constructor(name, surname, age) {
     super(name, surname, age);
   }
+  /**
+   *
+   * @param project instance of Project
+   * @returns
+   * prideda nauja projeka i #projects masyva
+   */
   addProject(project) {
     // patikrinti kad butu sukurtas pagal Project Klase
     if (!(project instanceof Project)) return console.log('bad object');
