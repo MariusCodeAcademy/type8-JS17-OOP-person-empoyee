@@ -1,7 +1,14 @@
 'use strict';
+
 class Person {
   // statine savybe priskiriama prie pacios klases
   static personCount = 0;
+  /**
+   *
+   * @param {string} name
+   * @param {string} surname
+   * @param {number} age
+   */
   constructor(name, surname, age) {
     Person.personCount++;
     this.id = `prsn_${Person.personCount}`;
