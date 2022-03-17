@@ -20,5 +20,8 @@ class Partner extends Person {
     console.log('doneProjects ===', doneProjects);
     const totalToPay = doneProjects.reduce((total, prObj) => total + prObj.price, 0);
     console.log('totalToPay ===', totalToPay);
+    // remove project that are done
+    this.#projects = this.#projects.filter((prObj) => prObj.done === false);
+    return totalToPay;
   }
 }

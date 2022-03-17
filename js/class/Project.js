@@ -17,6 +17,9 @@ class Project {
   get done() {
     return this.#done;
   }
+  get price() {
+    return this.#price;
+  }
 }
 
 // id, done (lygu false), title, price
